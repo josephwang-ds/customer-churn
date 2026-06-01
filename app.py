@@ -52,6 +52,7 @@ st.markdown("""
     background:var(--secondary-background-color) !important;border:1px solid rgba(120,130,150,0.45) !important;
     color:var(--text-color) !important;border-radius:8px !important;min-height:42px;font-weight:600;
   }
+  [data-testid="stDownloadButton"]>button:hover { border-color:var(--primary-color) !important; }
   .privacy-box {
     background:var(--secondary-background-color);border:1px solid rgba(120,130,150,0.45);border-radius:8px;
     padding:0.7rem 1rem;color:var(--text-color) !important;font-size:0.83rem;line-height:1.7;margin-bottom:1rem;
