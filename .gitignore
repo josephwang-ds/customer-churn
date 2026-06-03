@@ -1,0 +1,17 @@
+# Secrets and local environment
+.env*
+.streamlit/secrets.toml
+secrets.toml
+*.key
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS and editor files
+.DS_Store
+.vscode/
+.idea/
